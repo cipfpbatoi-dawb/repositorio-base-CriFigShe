@@ -16,7 +16,7 @@ $nomUsuari = $_SESSION['nom_usuari'];
     <title>Document</title>
 </head>
 <body>
-    <h2>Benvingut, <?php $nomUsuariç?>!</h2>
+    <h2>Benvingut, <?php $nomUsuari?>!</h2>
     <p>Inicia sesion en la seguent pagina</p>
     <a href="logout.php">Tancar session</a>
 </body>
