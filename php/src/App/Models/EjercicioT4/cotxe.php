@@ -1,12 +1,11 @@
 <?php
-class Cotxe extends Vehicle{
-    private $marca;
-    private $model;
-
-    public function __construct($marca, $model){
-        parent::__construct("Cotxe");
-        $this->marca = $marca;
-        $this->model = $model;
+namespace CFV\Models;
+class cotxe extends Vehicle{    
+    public function __construct(
+        private string $marca,
+        private string $model
+    ) {
+        parent::__construct("Cotxe");        
     }
 
     // public function __destruct(){

@@ -1,8 +1,11 @@
 <?php
+require $_SERVER['DOCUMENT_ROOT'] . '../vendor/autoload.php';
 
-// include_once("cotxe.php");
-// include_once("motocicleta.php");
-// include_once("vehicle.php");
+use CFV\Models\Cotxe;
+use CFV\Models\Motocicleta;
+use CFV\Models\Vehicle;
+
+
 function mostrarDetallsVehicle(Vehicle $vehicle){
     echo $vehicle->mostrarDetalls() . "\n";
 }
