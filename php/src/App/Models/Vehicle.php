@@ -1,6 +1,6 @@
 <?php
 namespace CFV\Models;
-class vehicle{
+class Vehicle{
     protected $tipus;
 
     public function __construct($tipus){

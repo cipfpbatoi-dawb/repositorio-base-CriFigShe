@@ -1,6 +1,6 @@
 {
-    "name": "igomis/bd",
-    "description": "Exercicis PHP BD",
+    "name": "ejercicios_repaso/cristian_figuerola",
+    "description": "Exercicis PHP Cristian Figuerola",
     "license" : "MIT",
     "autoload": {
         "psr-4": {

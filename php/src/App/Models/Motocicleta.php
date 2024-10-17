@@ -1,7 +1,7 @@
 <?php
 
 namespace CFV\Models;
-class motocicleta extends Vehicle{
+class Motocicleta extends Vehicle{
     private $cilindrada;
 
     public function __construct($cilindrada) {
@@ -14,5 +14,5 @@ class motocicleta extends Vehicle{
     }
 }
 
-$moto = new Motocicleta(400);
-echo $moto->mostrarDetalls();
+// $moto = new Motocicleta(400);
+// echo $moto->mostrarDetalls();

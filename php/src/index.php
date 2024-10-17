@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '../vendor/autoload.php';
+require $_SERVER["DOCUMENT_ROOT"] . '/../vendor/autoload.php';
 
 use CFV\Models\Cotxe;
 use CFV\Models\Motocicleta;

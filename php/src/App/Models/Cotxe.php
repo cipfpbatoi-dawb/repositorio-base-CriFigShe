@@ -1,6 +1,6 @@
 <?php
 namespace CFV\Models;
-class cotxe extends Vehicle{    
+class Cotxe extends Vehicle{    
     public function __construct(
         private string $marca,
         private string $model
@@ -33,6 +33,6 @@ class cotxe extends Vehicle{
     }    
 }
 
-$cotxe = new Cotxe("Audi", "A5");
-echo $cotxe->mostraInformacio();
+// $cotxe = new Cotxe("Audi", "A5");
+// echo $cotxe->mostraInformacio();
 
